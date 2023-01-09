@@ -1,2 +1,0 @@
-# samirdourado-portfolio
-Meu portfólio
