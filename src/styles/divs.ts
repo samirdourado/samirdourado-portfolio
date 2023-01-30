@@ -60,7 +60,7 @@ export const Section = styled.section`
 `
 
 export const InfosContent = styled.section`
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 100%;
     max-width: 810px;
     height: 400px;    
@@ -69,4 +69,14 @@ export const InfosContent = styled.section`
     flex-direction: column;
     justify-content: space-between;
     /* border-bottom: solid 1px var(--grey1); */
+`
+
+export const StacksContent = styled.div`
+    width: 100%;
+    height: 74px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 `

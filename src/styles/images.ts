@@ -19,7 +19,9 @@ export const ProfileFigure = styled.figure`
         height: 170px;
         min-width: 170px;
         min-height: 170px;
-    }
-    
-    
+    }    
+`
+
+export const StackImage = styled.img`
+    height: 80%;
 `

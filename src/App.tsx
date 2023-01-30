@@ -1,10 +1,21 @@
 import profileImg from "./assets/samir_400x400.jpg"
+import htmlImg from "./assets/html5.svg"
+import cssImg from "./assets/css3.svg"
+import javascriptImg from "./assets/javascript.svg"
+import reactImg from "./assets/react.svg"
+import typescriptImg from "./assets/typescript.svg"
+import gitImg from "./assets/git-icon.svg"
+import figmaImg from "./assets/figma.svg"
+import photoshopImg from "./assets/photoshop-cc.svg"
+import illustratorImg from "./assets/illustrator-cc.svg"
+import coreldrawImg from "./assets/corelDraw.svg"
+
 import { Card } from "./components/card"
 import { GlobalStyle } from "./styles/globalstyles"
-import { Container, Header, HeaderBtns, InfosContent, Section } from "./styles/divs"
-import { TitleLogo } from "./styles/typography"
-import { BtnNav } from "./styles/buttons"
-import { ProfileFigure } from "./styles/images"
+import { Container, Header, HeaderBtns, InfosContent, Section, StacksContent } from "./styles/divs"
+import { GoldSpan, TextBox, TitleLogo, WhiteTitle } from "./styles/typography"
+import { BtnNav, PortfolioButton } from "./styles/buttons"
+import { ProfileFigure, StackImage } from "./styles/images"
 
 function App() {
   
@@ -15,7 +26,7 @@ function App() {
 
         <Header>
           <div>
-            <TitleLogo>Samir <span>Dourado</span></TitleLogo>
+            <TitleLogo>Samir <GoldSpan>Dourado</GoldSpan></TitleLogo>
             <HeaderBtns>
               <BtnNav>Linkedin</BtnNav>
               <BtnNav>Curriculo</BtnNav>
@@ -30,27 +41,26 @@ function App() {
 
           <InfosContent>
             <div>
-              <p>Pai, desenvolvedor Front End, apaixonado por tecnologia.</p>
-              <button>Ver Portfólio</button>
+              <TextBox>Pai, desenvolvedor Front End, apaixonado por tecnologia.</TextBox>
+              <PortfolioButton>Ver Portfólio</PortfolioButton>
             </div>
 
-            <div>
-              <img src="" alt="html"></img>
-              <img src="" alt="css"></img>
-              <img src="" alt="Javascript"></img>
-              <img src="" alt="React"></img>
-              <img src="" alt="Typescript"></img>
-              
-              <img src="" alt="Git"></img>
-              <img src="" alt="Figma"></img>
-              <img src="" alt="Photoshop"></img>
-              <img src="" alt="Illustrator"></img>
-              <img src="" alt="Corel Draw"></img>
-            </div>
+            <StacksContent>
+              <StackImage src={htmlImg} alt="html"></StackImage>
+              <StackImage src={cssImg} alt="css"></StackImage>
+              <StackImage src={javascriptImg} alt="Javascript"></StackImage>
+              <StackImage src={reactImg} alt="React"></StackImage>
+              <StackImage src={typescriptImg} alt="Typescript"></StackImage>              
+              <StackImage src={gitImg} alt="Git"></StackImage>
+              <StackImage src={figmaImg} alt="Figma"></StackImage>
+              <StackImage src={photoshopImg} alt="Photoshop"></StackImage>
+              <StackImage src={illustratorImg} alt="Illustrator"></StackImage>
+              <StackImage src={coreldrawImg} alt="Corel Draw"></StackImage>
+            </StacksContent>
 
             <div>
-              <h2>Sobre <span>Samir</span></h2>
-              <p>Oi, bem vindo ao meu portfólio, meu nome é Samir Dourado, aqui você vai encontrar alguns projetos que ja fiz.</p>
+              <WhiteTitle>Sobre <GoldSpan>Samir</GoldSpan></WhiteTitle>
+              <TextBox>Oi, bem vindo ao meu portfólio, meu nome é Samir Dourado, aqui você vai encontrar alguns projetos que ja fiz.</TextBox>
             </div>
           </InfosContent>
 
