@@ -11,7 +11,10 @@ export const ProfileFigure = styled.figure`
         height: 400px;
         min-width: 400px;
         min-height: 400px;
-        /* margin-left: 2vw */
+    }
+
+    @media (max-width:1100px) {
+        margin: 0 auto
     }
 
     @media (max-width:500px) {
@@ -23,5 +26,5 @@ export const ProfileFigure = styled.figure`
 `
 
 export const StackImage = styled.img`
-    height: 80%;
+    height: 50px;
 `

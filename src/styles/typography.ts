@@ -10,17 +10,25 @@ export const GoldSpan = styled.span`
     color: var(--colorA);
 `
 
-export const WhiteTitle = styled.h2`
+export const WhiteTitleSobre = styled.h2`
     color: var(--white);
     font-weight: 600;
-    font-size: var(--title1);    
+    font-size: var(--title1);
+    margin-bottom: 10px;
+`
+
+export const WhiteTitleProjetos = styled.h2`
+    color: var(--white);
+    font-weight: 600;
+    font-size: var(--title1);
+    margin-bottom: 10px;
+    margin-left: 2vw;
 `
 
 export const TextBox = styled.p`
-    width: 277px;
-    /* height: 52px; */
-    /* font-weight: 400; */
+    width: 277px;    
     font-size: var(--title2);
     color: var(--white);
-    line-height: 24px;    
+    line-height: 24px;
+    margin-bottom: 20px;
 `

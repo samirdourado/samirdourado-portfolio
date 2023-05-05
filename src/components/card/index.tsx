@@ -1,23 +1,42 @@
-import cardImg from "../../assets/card-image.png"
+import React from "react"
+import { CardContentHolder, CardHolder, DescriptionCard, ImageCard, ImageCardHolder, ImageTechCard, TechsImageCard, TitleCard, ViewProjectBtn } from "./card"
+import data from '../../database'
 
-export const Card = () => {
+const CardV1= () => {
+  
     return(
-        <li>
-            <figure>
-              <img src={cardImg} alt="Card IMage"></img>
-            </figure>
-            <div>
-              <h3>Hamburgueria V2</h3>
-              <p>Carrinho de compras para sistema de compras de hamburguers e refrigerantes.Carrinho de compras para sistema de compras de...</p>
-              <div>
-                <img src="" alt="React"></img>
-                <img src="" alt="Typescript"></img>
-                <img src="" alt="Git"></img>
-                <img src="" alt="Figma"></img>
-              </div>
-              <button>Acessar Site</button>
-            </div>
-          </li>
+      <>
+        {
+          data.length ? (
+            data.map((element: any) => (                
+              <CardHolder key={element.id}>
+                <ImageCardHolder>
+                  <ImageCard src={element.image}></ImageCard>
+                </ImageCardHolder>
+
+                <CardContentHolder>
+                  <TitleCard>{element.title}</TitleCard>
+                  <DescriptionCard>{element.description}</DescriptionCard>
+
+                  <TechsImageCard >
+                  {
+                    element.techs.map((tech: any, pos: number) => (
+                        <ImageTechCard key={pos} src={tech} />
+                        ))
+                      }
+                  </TechsImageCard>
+
+                  <ViewProjectBtn type={"button"} onClick={() => window.open(element.url, "_blank")} >
+                    Ver Projeto
+                  </ViewProjectBtn>                     
+                </CardContentHolder>
+              </CardHolder>
+            ))
+          ) : (<p>Carregando...</p>)
+        }
+      </>
     )
 
 }
+
+export default CardV1
