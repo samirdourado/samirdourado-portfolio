@@ -55,7 +55,6 @@ const data = [
         ],
         url: 'https://nu-kenzie-samirdourado.vercel.app/'        
     }
-
 ]
 
 export default data
