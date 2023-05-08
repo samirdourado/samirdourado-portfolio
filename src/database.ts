@@ -1,4 +1,3 @@
-// import { react } from "./assets/techs/react.svg"
 const data = [
 
     {
@@ -7,10 +6,10 @@ const data = [
         title: 'Hamburgueria V2',
         description: 'Sistema de compras para usuario com login e senha.',
         techs: [
-            './src/assets/techs/react.svg', 
-            './src/assets/techs/typescript.svg', 
-            './src/assets/techs/javascript.svg', 
-            './src/assets/techs/git-icon.svg'
+            '../src/assets/techs/react.svg', 
+            '../src/assets/techs/typescript.svg', 
+            '../src/assets/techs/javascript.svg', 
+            '../src/assets/techs/git-icon.svg'
         ],
         url: 'https://hamburgueria-v2-samirdourado.vercel.app/'
     },
@@ -21,10 +20,10 @@ const data = [
         title: 'Kenzie Hub',
         description: 'Cadastro de technologias nos moldes de todoList.',
         techs: [
-            './src/assets/techs/react.svg', 
-            './src/assets/techs/typescript.svg', 
-            './src/assets/techs/javascript.svg', 
-            './src/assets/techs/git-icon.svg'
+            '../src/assets/techs/react.svg', 
+            '../src/assets/techs/typescript.svg', 
+            '../src/assets/techs/javascript.svg', 
+            '../src/assets/techs/git-icon.svg'
         ],
         url: 'https://react-entrega-kenzie-hub-samirdourado.vercel.app/'
     },
@@ -35,10 +34,10 @@ const data = [
         title: 'Hamburgueria V1',
         description: 'Carrinho de compras dinâmico.',
         techs: [
-            './src/assets/techs/react.svg', 
-            './src/assets/techs/typescript.svg', 
-            './src/assets/techs/javascript.svg', 
-            './src/assets/techs/git-icon.svg'
+            '../src/assets/techs/react.svg', 
+            '../src/assets/techs/typescript.svg', 
+            '../src/assets/techs/javascript.svg', 
+            '../src/assets/techs/git-icon.svg'
         ],
         url: 'https://hamburgueria-da-kenzie-samirdourado.vercel.app/'        
     },
@@ -49,10 +48,10 @@ const data = [
         title: 'Nu Kenzie',
         description: 'Sistem de entrada e saída de valores.',
         techs: [
-            './src/assets/techs/react.svg', 
-            './src/assets/techs/typescript.svg', 
-            './src/assets/techs/javascript.svg', 
-            './src/assets/techs/git-icon.svg'
+            '../src/assets/techs/react.svg', 
+            '../src/assets/techs/typescript.svg', 
+            '../src/assets/techs/javascript.svg', 
+            '../src/assets/techs/git-icon.svg'
         ],
         url: 'https://nu-kenzie-samirdourado.vercel.app/'        
     }
