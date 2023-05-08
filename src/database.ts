@@ -31,7 +31,7 @@ const data = [
 
     {
         id: 3,
-        image: '../src/assets/covers/hamburgueriav1.png',
+        image: './assets/covers/hamburgueriav1.png',
         title: 'Hamburgueria V1',
         description: 'Carrinho de compras dinâmico.',
         techs: [
@@ -45,7 +45,7 @@ const data = [
 
     {
         id: 4,
-        image: '../src/assets/covers/nukenzie.png',
+        image: './assets/covers/nukenzie.png',
         title: 'Nu Kenzie',
         description: 'Sistem de entrada e saída de valores.',
         techs: [
