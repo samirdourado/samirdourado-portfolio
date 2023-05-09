@@ -12,7 +12,7 @@ const CardV1= () => {
             data.map((element: any) => (                
               <CardHolder key={element.id}>
                 <ImageCardHolder>
-                  <ImageCard src={element.image}></ImageCard>                  
+                  <ImageCard src={element.image}/>
                 </ImageCardHolder>
 
                 <CardContentHolder>
