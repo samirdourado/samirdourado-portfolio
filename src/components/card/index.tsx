@@ -22,7 +22,7 @@ const CardV1= () => {
                   <TechsImageCard >
                   {
                     element.techs.map((tech: any, pos: number) => (
-                        <ImageTechCard key={pos} src={tech} />
+                        <ImageTechCard key={pos} src={tech} alt={"tech icon"} />
                         ))
                       }
                   </TechsImageCard>
