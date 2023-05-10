@@ -2,7 +2,7 @@ const data = [
 
     {
         id: 1,
-        image: 'src/assets/covers/hamburgueriav2.jpg',
+        image: 'src/assets/covers/hamburgueriav2.png',
         title: 'Hamburgueria V2',
         description: 'Sistema de compras para usuario com login e senha.',
         techs: [
@@ -15,7 +15,7 @@ const data = [
 
     {
         id: 2,
-        image: 'assets/covers/kenziehub.jpg',
+        image: 'assets/covers/kenziehub.png',
         title: 'Kenzie Hub',
         description: 'Cadastro de technologias nos moldes de todoList.',
         techs: [
@@ -29,21 +29,21 @@ const data = [
 
     {
         id: 3,
-        image: './assets/covers/hamburgueriav1.jpg',
+        image: '/public/imagens/covers/hamburgueriav1.png',
         title: 'Hamburgueria V1',
         description: 'Carrinho de compras dinâmico.',
         techs: [
-            './assets/techs/react.svg', 
-            './assets/techs/typescript.svg', 
-            './assets/techs/javascript.svg', 
-            './assets/techs/git-icon.svg'
+            '/public/imagens/techs/react.svg', 
+            '/public/imagens/techs/typescript.svg',
+            '/public/imagens/techs/javascript.svg',
+            '/public/imagens/techs/git-icon.svg'
         ],
         url: 'https://hamburgueria-da-kenzie-samirdourado.vercel.app/'        
     },
 
     {
         id: 4,
-        image: './assets/covers/nukenzie.jpg',
+        image: './assets/covers/nukenzie.png',
         title: 'Nu Kenzie',
         description: 'Sistem de entrada e saída de valores.',
         techs: [
