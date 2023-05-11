@@ -2,27 +2,27 @@ const data = [
 
     {
         id: 1,
-        image: 'src/assets/covers/hamburgueriav2.png',
+        image: '/imagens/covers/hamburgueriav2.png',
         title: 'Hamburgueria V2',
         description: 'Sistema de compras para usuario com login e senha.',
         techs: [
-            'src/assets/techs/react.svg', 
-            'src/assets/techs/typescript.svg', 
-            'src/assets/techs/javascript.svg',
+            '/imagens/techs/react.svg', 
+            '/imagens/techs/typescript.svg', 
+            '/imagens/techs/javascript.svg',
         ],
         url: 'https://hamburgueria-v2-samirdourado.vercel.app/'
     },
 
     {
         id: 2,
-        image: 'assets/covers/kenziehub.png',
+        image: '/imagens/covers/kenziehub.png',
         title: 'Kenzie Hub',
         description: 'Cadastro de technologias nos moldes de todoList.',
         techs: [
-            'assets/techs/react.svg', 
-            'assets/techs/typescript.svg', 
-            'assets/techs/javascript.svg', 
-            'assets/techs/git-icon.svg'
+            '/imagens/techs/react.svg', 
+            '/imagens/techs/typescript.svg', 
+            '/imagens/techs/javascript.svg', 
+            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://react-entrega-kenzie-hub-samirdourado.vercel.app/'
     },
@@ -43,14 +43,14 @@ const data = [
 
     {
         id: 4,
-        image: './assets/covers/nukenzie.png',
+        image: '/imagens/covers/nukenzie.png',
         title: 'Nu Kenzie',
         description: 'Sistem de entrada e saída de valores.',
         techs: [
-            './assets/techs/react.svg', 
-            './assets/techs/typescript.svg', 
-            './assets/techs/javascript.svg', 
-            './assets/techs/git-icon.svg'
+            '/imagens/techs/react.svg', 
+            '/imagens/techs/typescript.svg', 
+            '/imagens/techs/javascript.svg', 
+            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://nu-kenzie-samirdourado.vercel.app/'        
     }

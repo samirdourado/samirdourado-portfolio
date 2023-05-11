@@ -121,31 +121,32 @@ export const InfosContent__Infos = styled.div`
     }
 `
 
-export const StacksContent = styled.div`
-    width: 100%;
+export const StacksContent = styled.div`    
     min-width: 300px;
     max-width: 810px;
     background-color: var(--white);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     border-radius: 8px;
     padding: 10px;
     gap: 10px;
+    justify-content: space-between;
     
-    @media (min-width: 851px){
-        justify-content: space-around;        
-        flex-wrap: wrap;
+    @media (min-width: 1101px){
+        
     }
 
-    @media (max-width: 850px){       
+    @media (max-width: 1100px){       
         justify-content: space-between;
         flex-wrap: wrap;
+        width: 100%;
     }
 
-    @media (max-width: 500px){       
+    /* @media (max-width: 500px){       
         justify-content: space-evenly;
         flex-wrap: wrap;
-    }
+    } */
 `
 
 export const MainCards = styled.main`    
