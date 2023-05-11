@@ -29,14 +29,14 @@ const data = [
 
     {
         id: 3,
-        image: '/public/imagens/covers/hamburgueriav1.png',
+        image: '/imagens/covers/hamburgueriav1.png',
         title: 'Hamburgueria V1',
         description: 'Carrinho de compras dinâmico.',
         techs: [
-            '/public/imagens/techs/react.svg', 
-            '/public/imagens/techs/typescript.svg',
-            '/public/imagens/techs/javascript.svg',
-            '/public/imagens/techs/git-icon.svg'
+            '/imagens/techs/react.svg', 
+            '/imagens/techs/typescript.svg',
+            '/imagens/techs/javascript.svg',
+            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://hamburgueria-da-kenzie-samirdourado.vercel.app/'        
     },
