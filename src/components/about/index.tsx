@@ -33,7 +33,7 @@ const About = () => {
         <InfosContent__Infos>
             <div>
                 <TextBox>Oi, bem vindo ao meu portfólio, aqui você vai encontrar alguns projetos que ja fiz e participei.</TextBox>
-                <PortfolioButton as="a" href="#meus">Ver Portfólio</PortfolioButton>
+                <PortfolioButton as="a" href="#meus">Ver Projetos</PortfolioButton>
             </div>
 
             <div>
