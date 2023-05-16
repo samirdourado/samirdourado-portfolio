@@ -92,8 +92,12 @@ export const InfosContent = styled.section`
         margin-bottom: 50px;
         align-items: center;
         justify-content: center;
-        padding: 10px 0;
-    }   
+        padding: 10px 0;        
+    }
+
+    @media (max-width:550px) {
+        gap: 50px;
+    }
 `
 
 export const InfosContent__Infos = styled.div`
@@ -111,14 +115,14 @@ export const InfosContent__Infos = styled.div`
     @media (max-width:1100px) {
         flex-direction: row;
         justify-content: space-between;
-        align-items: space-between;
+        align-items: space-between;        
+        gap: 50px;
     }
 
     @media (max-width:550px) {
         flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
+        align-items: center;        
+    }    
 `
 
 export const StacksContent = styled.div`    
@@ -133,9 +137,6 @@ export const StacksContent = styled.div`
     gap: 10px;
     justify-content: space-between;
     
-    @media (min-width: 1101px){
-        
-    }
 
     @media (max-width: 1100px){       
         justify-content: space-between;
@@ -143,10 +144,9 @@ export const StacksContent = styled.div`
         width: 100%;
     }
 
-    /* @media (max-width: 500px){       
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    } */
+    @media (max-width: 398px){       
+        margin-top: 30px;
+    }
 `
 
 export const MainCards = styled.main`    
