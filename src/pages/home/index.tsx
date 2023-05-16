@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import profileImg from "../../assets/samir_400x400.jpg"
 import htmlImg from "../../assets/techs/html5.svg"
 import cssImg from "../../assets/techs/css3.svg"
@@ -10,7 +10,6 @@ import figmaImg from "../../assets/techs/figma.svg"
 import photoshopImg from "../../assets/techs/photoshop-cc.svg"
 import illustratorImg from "../../assets/techs/illustrator-cc.svg"
 import coreldrawImg from "../../assets/techs/corelDraw.svg"
-
 import { GlobalStyle } from "../../styles/globalstyles"
 import { Container, Footer, Header, HeaderBtns, InfosContent, InfosContent__Infos, MainCards, MainCardsContent, SectionProfile, StacksContent } from "../../styles/divs"
 import { GoldSpan, TextBox, TitleLogo, WhiteTitleProjetos, WhiteTitleSobre } from "../../styles/typography"
@@ -23,11 +22,16 @@ function HomePage() {
 
   const linkedinLink = "https://www.linkedin.com/in/samirdourado"
   const curriculoLink = "https://drive.google.com/file/d/12dYq-AoH4xtVn78SJLjzp7WuZPIPnf9o/view?usp=share_link"
+
+  const dateToday = new Date()
+  const myBirthday = new Date("1985-08-31")
+  const myAge = dateToday.getFullYear() - myBirthday.getFullYear()  
   
   return (
     
-      <Container>
+      <Container>        
         <GlobalStyle/>
+        
         <div>
           <Header>
             <div>
@@ -47,13 +51,13 @@ function HomePage() {
             <InfosContent>
               <InfosContent__Infos>
                 <div>
-                  <TextBox>Pai, desenvolvedor Front End, apaixonado por tecnologia.</TextBox>
+                  <TextBox>Oi, bem vindo ao meu portfólio, aqui você vai encontrar alguns projetos que ja fiz e participei.</TextBox>
                   <PortfolioButton as="a" href="#meus">Ver Portfólio</PortfolioButton>
                 </div>
 
                 <div>
                   <WhiteTitleSobre>Sobre <GoldSpan>Samir</GoldSpan></WhiteTitleSobre>
-                  <TextBox>Oi, bem vindo ao meu portfólio, meu nome é Samir Dourado, aqui você vai encontrar alguns projetos que ja fiz.</TextBox>
+                  <TextBox>Olá meu nome é Samir <GoldSpan>Dourado</GoldSpan>, tenho <GoldSpan>{myAge}</GoldSpan> anos, e desde sempre gosto de tecnologia e artes. Estou me formando em desenvolvedor Full Stack e adquiri habilidades em diversas tecnologias front-end e back-end.</TextBox>                  
                 </div>
               </InfosContent__Infos>
 
@@ -70,12 +74,9 @@ function HomePage() {
                 <StackImage src={coreldrawImg} alt="Corel Draw"></StackImage>
               </StacksContent>
 
-              
             </InfosContent>
-
           </SectionProfile>
         </div>
-
 
         <MainCards>
           <WhiteTitleProjetos id="meus">Meus <GoldSpan>Projetos</GoldSpan></WhiteTitleProjetos>
@@ -88,9 +89,6 @@ function HomePage() {
           <p>&copy; Samir Dourado</p>
         </Footer>
       </Container>
-              
-  
-    
   )
 }
 export default HomePage

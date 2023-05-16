@@ -44,7 +44,7 @@ export const PortfolioButton = styled.button`
     padding: 10px 20px;
     text-decoration: none;
 
-    @media (min-width: 750px) {
-        max-width: 277px;
+    @media (max-width: 1100px) {
+        margin-bottom: 20px;
     }
 `

@@ -26,9 +26,11 @@ export const WhiteTitleProjetos = styled.h2`
 `
 
 export const TextBox = styled.p`
-    width: 277px;    
+    min-width: 277px;
+    max-width: 500px;    
     font-size: var(--title2);
     color: var(--white);
     line-height: 24px;
     margin-bottom: 20px;
+    
 `
