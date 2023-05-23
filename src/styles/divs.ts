@@ -43,7 +43,7 @@ export const Header = styled.header`
 `
 
 export const HeaderBtns = styled.nav`
-    width: 200px;
+    /* width: 200px; */
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -169,15 +169,16 @@ export const MainCardsContent = styled.ul`
     height: 100%;
     min-width: 320px;
     max-width: 1440px;    
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 8px;
 
     @media (max-width:550px) {
         flex-direction: column;
-        height: 350px;
+        height: 370px;
         overflow-x: scroll;
+        resize: none;
     }
     
 `

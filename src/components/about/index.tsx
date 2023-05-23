@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { InfosContent__Infos } from "../../styles/divs";
 import { GoldSpan, TextBox, WhiteTitleSobre } from "../../styles/typography";
 import { PortfolioButton } from "../../styles/buttons";
-// import AgeCounter from "../ageCounter";
 
 const About = () => {
     const dateToday = new Date()
@@ -16,8 +15,7 @@ const About = () => {
             setCount((prevCount) => {
                 if (prevCount === myAge) {
                     clearInterval(interval)
-                    return prevCount
-                    
+                    return prevCount                    
                     } else {
                         return prevCount + 1
                     }

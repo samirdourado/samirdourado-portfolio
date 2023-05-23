@@ -5,8 +5,8 @@ export const CardHolder = styled.li`
     width: 205px;
     min-width: 205px;
     max-width: 205px;
-    height: 300px;
-    min-height: 300px;
+    height: 333px;
+    min-height: 333px;
     max-height: 300px;
     background-color: white; 
     border: 2px solid var(--white);
@@ -24,7 +24,6 @@ export const CardHolder = styled.li`
         transform: scale(1.05) ;
     }
 `
-
 
 export const ImageCardHolder = styled.figure`
     width: 100%;
@@ -44,23 +43,21 @@ export const ImageCard = styled.img`
     width: 100%;
     border: 1px solid var(--colorB);
     border-radius: 4px;
+    margin: 0 auto;
 `
 
-export const CardContentHolder = styled.section`
-    background-color: aliceblue;
+export const CardContentHolder = styled.section`    
+    width: 100%;
+    height: 100%;    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
-
 `
 
 export const TitleCard = styled.h3`
     color: var(--black);
     font-weight: 500;
     font-size: var(--title4);
-    margin-bottom: 20px;
 `
 
 export const DescriptionCard = styled.p`
@@ -69,18 +66,24 @@ export const DescriptionCard = styled.p`
     overflow-y: auto;
 `
 
-export const TechsImageCard = styled.figure`
+export const TechsImageCard = styled.figure`    
     width: 100%;
     max-width: 184px;
-    height: 20px;
     display: flex;    
     gap: 10px;
-
 `
 
 export const ImageTechCard = styled.img`
     width: 20px;
     height: 20px;
+`
+
+export const GroupBtn = styled.div`
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 `
 
 export const ViewProjectBtn = styled.button`

@@ -6,7 +6,7 @@ import { GoldSpan, TitleLogo, WhiteTitleProjetos } from "../../styles/typography
 import { BtnNav } from "../../styles/buttons"
 import { ProfileFigure } from "../../styles/images"
 import CardV1 from "../../components/card/index.jsx"
-import {BsLinkedin, BsFiletypePdf} from "react-icons/bs"
+import {BsLinkedin, BsFiletypePdf, BsGithub} from "react-icons/bs"
 import StackContent from "../../components/stacks"
 import About from "../../components/about"
 
@@ -15,6 +15,8 @@ function HomePage() {
 
   const linkedinLink = "https://www.linkedin.com/in/samirdourado"
   const curriculoLink = "https://drive.google.com/file/d/12dYq-AoH4xtVn78SJLjzp7WuZPIPnf9o/view?usp=share_link"
+  const myGithubLink = "https://github.com/samirdourado"
+  const thisRepo = "https://github.com/samirdourado/samirdourado-portfolio"
   
   return (
     
@@ -28,6 +30,7 @@ function HomePage() {
               <HeaderBtns>
                 <BtnNav type="button" onClick={() => window.open(linkedinLink, "_blank")}><BsLinkedin size={20}/>Linkedin</BtnNav>
                 <BtnNav type="button" onClick={() => window.open(curriculoLink, "_blank")}><BsFiletypePdf size={20}/>Currículo</BtnNav>
+                <BtnNav type="button" onClick={() => window.open(myGithubLink, "_blank")}><BsGithub size={20}/>Github</BtnNav>
               </HeaderBtns>
             </div>
           </Header>
