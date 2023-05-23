@@ -1,5 +1,5 @@
 import React from "react"
-import { CardContentHolder, CardHolder, DescriptionCard, ImageCard, ImageCardHolder, ImageTechCard, TechsImageCard, TitleCard, ViewProjectBtn } from "./card"
+import { CardContentHolder, CardHolder, DescriptionCard, GroupBtn, ImageCard, ImageCardHolder, ImageTechCard, TechsImageCard, TitleCard, ViewProjectBtn } from "./card"
 import data from '../../database'
 
 
@@ -9,8 +9,8 @@ const CardV1= () => {
       <>
         {
           data.length ? (
-            data.map((element: any) => (                
-              <CardHolder key={element.id}>
+            data.map((element: any, pos) => (                
+              <CardHolder key={element.pos}>
                 <ImageCardHolder>
                   <ImageCard src={element.image}/>
                 </ImageCardHolder>
@@ -27,9 +27,11 @@ const CardV1= () => {
                       }
                   </TechsImageCard>
 
-                  <ViewProjectBtn type={"button"} onClick={() => window.open(element.url, "_blank")} >
-                    Ver Projeto
-                  </ViewProjectBtn>                     
+                  <GroupBtn>
+                  <ViewProjectBtn type={"button"} onClick={() => window.open(element.url, "_blank")}>Ver Projeto</ViewProjectBtn>
+                  <ViewProjectBtn type={"button"} onClick={() => window.open(element.repo, "_blank")}>Ver Repositório</ViewProjectBtn>
+                  </GroupBtn>
+
                 </CardContentHolder>
               </CardHolder>
             ))
