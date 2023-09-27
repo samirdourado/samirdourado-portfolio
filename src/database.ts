@@ -8,7 +8,6 @@ const data = [
             '/imagens/techs/react.svg', 
             '/imagens/techs/typescript.svg', 
             '/imagens/techs/javascript.svg', 
-            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://samirdourado-portfolio.vercel.app/',
         repo: 'https://github.com/samirdourado/samirdourado-portfolio'
@@ -35,7 +34,6 @@ const data = [
             '/imagens/techs/react.svg', 
             '/imagens/techs/typescript.svg', 
             '/imagens/techs/javascript.svg', 
-            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://react-entrega-kenzie-hub-samirdourado.vercel.app/',
         repo: 'https://github.com/samirdourado/kenzie-hub-samirdourado'
@@ -49,7 +47,6 @@ const data = [
             '/imagens/techs/react.svg', 
             '/imagens/techs/typescript.svg',
             '/imagens/techs/javascript.svg',
-            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://hamburgueria-da-kenzie-samirdourado.vercel.app/',
         repo: 'https://github.com/samirdourado/hamburgueria-da-kenzie-samirdourado'
@@ -63,7 +60,6 @@ const data = [
             '/imagens/techs/react.svg', 
             '/imagens/techs/typescript.svg', 
             '/imagens/techs/javascript.svg', 
-            '/imagens/techs/git-icon.svg'
         ],
         url: 'https://nu-kenzie-samirdourado.vercel.app/',
         repo: 'https://github.com/samirdourado/nu-kenzie-samirdourado'        
