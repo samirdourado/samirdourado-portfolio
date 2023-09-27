@@ -3,7 +3,7 @@ import { CardContentHolder, CardHolder, DescriptionCard, GroupBtn, ImageCard, Im
 import data from '../../database'
 
 
-const CardV1= () => {
+const CardV1 = () => {
   
     return(
       <>
