@@ -14,7 +14,7 @@ import About from "../../components/about"
 function HomePage() {
 
   const linkedinLink = "https://www.linkedin.com/in/samirdourado"
-  const curriculoLink = "https://drive.google.com/file/d/1PzrCcMu7naGPgVWX-M433kA4qEx0aj8r/view?usp=sharing"
+  const curriculoLink = "https://drive.google.com/file/d/1qc2zo4SRSfl7Qt3EhKF9dgqABIaHfYLw/view?usp=sharing"
   const myGithubLink = "https://github.com/samirdourado"
   const thisRepo = "https://github.com/samirdourado/samirdourado-portfolio"
   
